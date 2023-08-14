@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64b975eb155121744afae2056618e091, type: 3}
+  m_Name: Test terrain
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  layers:
+  - texture: {fileID: 2800000, guid: 17bfdc0b4daf0e549ba846280f7e409c, type: 3}
+    tint: {r: 0.19003202, g: 0.2216114, b: 0.6415094, a: 0}
+    tintStrenght: 0
+    startHeight: 0
+    blendStrenght: 0
+    textureScale: 0
+  - texture: {fileID: 2800000, guid: abf24793db350364ca50c1b64508d9c1, type: 3}
+    tint: {r: 0, g: 0, b: 0, a: 0}
+    tintStrenght: 0
+    startHeight: 0.124
+    blendStrenght: 0.037
+    textureScale: 0

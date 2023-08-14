@@ -1,0 +1,15 @@
+using System.Threading.Tasks;
+
+public class #SCRIPTNAME# : AbilityBehavior
+{
+    public override Task Execute()
+    {
+    #NOTRIM#   
+        return Task.CompletedTask;
+    }
+
+    public override void Initialize(AbilityController abilityController)
+    {
+        #NOTRIM#
+    }
+}

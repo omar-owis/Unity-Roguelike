@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83d90f013080e1949874edc750f084a8, type: 3}
+  m_Name: Right_FireBall
+  m_EditorClassIdentifier: 
+  cooldown: 0
+  isCombo: 0
+  UIDisplay: {fileID: 0}
+  description: Left_FireBall
+  animationLock: 0
+  _behaviors:
+  - {fileID: 4838393841788175797}
+--- !u!114 &4838393841788175797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebe4a200a4476934f84587fb73c2cfc8, type: 3}
+  m_Name: 1_SpawnProjectile
+  m_EditorClassIdentifier: 
+  _waitUntil: 1
+  SelectedID: 3
+  hand: 1
+  _projectile: {fileID: 7734650633331803123, guid: c302fae0ac24c7a4b81e7cca6ffbe21d, type: 3}
+  _damage: 0
+  _speed: 0

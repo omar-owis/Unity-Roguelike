@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ab16a5945a4c14196c940f9d2457a5, type: 3}
+  m_Name: Bronze Trinket
+  m_EditorClassIdentifier: 
+  ID: 4
+  UIDisplay: {fileID: 21300000, guid: 395f6b9556f14704790df6035be6ee3a, type: 3}
+  type: 0
+  description: A trinket with great power effects.
+  flatPowerBonus: 1
+  flatSpeedBonus: 1
+  flatHealthBonus: 0
+  flatFireRateBonus: 0
+  flatBulletSpeedBonus: 0
+  flatLuckBonus: 0
+  percentPowerBonus: 0.1
+  percentSpeedBonus: 0
+  percentHealthBonus: 0
+  percentFireRateBonus: 0
+  percentBulletSpeedBonus: 0
+  percentLuckBonus: 0
+  percentBonusType: 1
