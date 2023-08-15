@@ -1,6 +1,10 @@
 # Unity-Roguelike
 ![GameView](https://github.com/omar-owis/Unity-Roguelike/blob/main/Readme%20Images/image0.png)
-## Introduction
+
+## Vision
+Dungeon Man is an innovative and exhilarating fusion of the fast-paced combat mechanics from the popular battle royale game Spellbreak and the engaging roguelike elements. Set in a mystical realm of ever-changing landscapes and ancient dungeons, players will embark on an epic journey to harness their magical prowess, gather powerful artifacts, and ultimately face off against a formidable final boss.
+
+## Development Details
 This repository contains an ongoing Unity roguelike game project, showcasing several key game features. These features encompass a flexible Inventory system with item creation tool, procedural terrain generation tool, a versatile player controller, and a custom ability creator. Each of these elements is designed to contribute to the overall gameplay experience, enhancing the game's depth and engagement.
 
 The game's development is centered around Unity-3D, a popular game engine known for its capabilities in creating immersive and interactive experiences. Leveraging Unity-3D provides a solid foundation for building and iterating upon the various components that comprise the game.
