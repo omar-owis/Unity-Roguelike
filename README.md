@@ -6,7 +6,7 @@ The game's development is centered around Unity-3D, a popular game engine known 
 
 Notably, the repository distinguishes itself by employing internal assets for its pivotal game features. External assets are limited in usage, primarily reserved for temporary player character model, player animations, prototype grids, and freelook camera control facilitated by Cinemachine. This approach ensures a level of originality and control over the game's core mechanics.
 
-The existing progress on the project spans approximately six months of development effort. Detailed documentation of daily advancements can be accessed through the progress logs, offering insight into the iterative process that has driven the game's evolution.
+The existing progress on the project spans approximately six months of development effort. Detailed documentation of daily advancements can be accessed through the progress logs folder, offering insight into the iterative process that has driven the game's evolution.
 
 The entirety of the project's advancement has developed and designed by a solo developer.
 
