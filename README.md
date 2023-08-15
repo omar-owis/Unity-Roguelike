@@ -12,7 +12,9 @@ The existing progress on the project spans approximately six months of developme
 The entirety of the project's advancement has developed and designed by a solo developer.
 
 ## Inventory System and Item Creation Tool
+
 ![Inventory](https://github.com/omar-owis/Unity-Roguelike/blob/main/Readme%20Images/image1.png)
+
 The flexible inventory system constitutes a vital gameplay component, offering a range of item management features that enrich the player experience:
 - Items can be picked up from the game world by the parent entity.
 - Inventories supports item dropping.
@@ -26,23 +28,31 @@ The flexible inventory system constitutes a vital gameplay component, offering a
 ## Procedural Terrain Generation Tool
 The game incorporates an innovative infinite procedural terrain generation tool, which leverages industry-standard techniques such as Perlin noise to create diverse and dynamic landscapes. This tool encompasses various features:
 - Terrain generation settings, including noise scale, octaves, persistence, lacunarity, seed, offset, terrain height multiplier, and height curve.
+
 ![Terrain Settings](https://github.com/omar-owis/Unity-Roguelike/blob/main/Readme%20Images/image2.png)
+
 - Rendering of terrain includes a level of detail mechanic for optimization.
+
 ![LOD settings](https://github.com/omar-owis/Unity-Roguelike/blob/main/Readme%20Images/image3.png)
+
 - Unloading and loading of terrain collision relative to player for optimization.
 - Use of treading in terrain generation for optimization.
 - Terrain shader graph that utilizes tri-planar texture mapping
 
 ## Player Controller
-The game's versatile player controller introduces a physics-based 3D movement system, complemented by a hierarchical state machine software design pattern. 
+
 ![Player Controller Settings](https://github.com/omar-owis/Unity-Roguelike/blob/main/Readme%20Images/image4.png)
+
+The game's versatile player controller introduces a physics-based 3D movement system, complemented by a hierarchical state machine software design pattern. 
 - Use of factory software design pattern to create the current player root state and sub state.
 - Current implemented player root-states: Jump state, Fall state, Grounded state, and Levitation State.
 - Current Implemented player sub-states: Idle state, Walk state, Run state, Dash state, External-movement state.
 - Implementation allows for seamless scalability for both root-states and sub-states
 - Implementation extends for other entities to use same controller logic with identical or distinct states
 ## Ability Creator Tool
+
 ![Ability Creator Tool](https://github.com/omar-owis/Unity-Roguelike/blob/main/Readme%20Images/image5.png)
+
 A unique custom ability creator tool serves as a standout feature, utilizing C# async to execute abilities during run-time. Key attributes of this tool include:
 
 - Abilities can be easily designed using pre-defined ability behaviors.
