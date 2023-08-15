@@ -1,4 +1,5 @@
 # Unity-Roguelike
+## Introduction
 This repository contains an ongoing Unity roguelike game project, showcasing several key game features. These features encompass a flexible Inventory system with item creation tool, procedural terrain generation tool, a versatile player controller, and a custom ability creator. Each of these elements is designed to contribute to the overall gameplay experience, enhancing the game's depth and engagement.
 
 The game's development is centered around Unity-3D, a popular game engine known for its capabilities in creating immersive and interactive experiences. Leveraging Unity-3D provides a solid foundation for building and iterating upon the various components that comprise the game.
@@ -9,7 +10,7 @@ The existing progress on the project spans approximately six months of developme
 
 The entirety of the project's advancement has developed and designed by a solo developer.
 
-## Inventory system and item creation tool
+## Inventory System and Item Creation Tool
 The flexible inventory system constitutes a vital gameplay component, offering a range of item management features that enrich the player experience:
 - Items can be picked up from the game world by the parent entity.
 - Inventories supports item dropping.
@@ -20,7 +21,7 @@ The flexible inventory system constitutes a vital gameplay component, offering a
 - Items can be swapped within inventories.
 - Customizable inventory user interface (UI) through unity editor
 
-## Procedural terrain generation tool
+## Procedural Terrain Generation Tool
 The game incorporates an innovative infinite procedural terrain generation tool, which leverages industry-standard techniques such as Perlin noise to create diverse and dynamic landscapes. This tool encompasses various features:
 - Terrain generation settings, including noise scale, octaves, persistence, lacunarity, seed, offset, terrain height multiplier, and height curve.
 - Rendering of terrain includes a level of detail mechanic for optimization.
@@ -35,7 +36,7 @@ The game's versatile player controller introduces a physics-based 3D movement sy
 - Current Implemented player sub-states: Idle state, Walk state, Run state, Dash state, External-movement state.
 - Implementation allows for seamless scalability for both root-states and sub-states
 - Implementation extends for other entities to use same controller logic with identical or distinct states
-## ability creator tool
+## Ability Creator Tool
 A unique custom ability creator tool serves as a standout feature, utilizing C# async to execute abilities during run-time. Key attributes of this tool include:
 
 - Abilities can be easily designed using pre-defined ability behaviors.
